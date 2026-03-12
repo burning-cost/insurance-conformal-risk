@@ -61,6 +61,7 @@ addopts = "--tb=short"
 
 [dependency-groups]
 dev = [
+    "databricks-sdk>=0.98.0",
     "pytest>=8.0",
     "scikit-learn>=1.3",
 ]
